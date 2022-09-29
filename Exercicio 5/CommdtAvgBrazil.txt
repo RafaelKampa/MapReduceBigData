@@ -1,0 +1,102 @@
+//Rafael Gilberto Kampa
+//The average price of commodities per unit type, year, and category in the export flow in Brazil;
+package tde1.exercicio5;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
+import org.apache.log4j.BasicConfigurator;
+
+import java.io.IOException;
+
+public class CommdtAvgBrazil {
+
+    public static void main(String args[]) throws IOException,
+            ClassNotFoundException,
+            InterruptedException {
+        BasicConfigurator.configure();
+
+        Configuration c = new Configuration();
+        String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
+        // arquivo de entrada
+        Path input = new Path(files[0]);
+
+        // arquivo de saida
+        Path output = new Path(files[1]);
+
+        // criacao do job e seu nome
+        Job j = new Job(c, "commodityAvgBrazil");
+
+        // registro das classes
+        j.setJarByClass(CommdtAvgBrazil.class);
+        j.setMapperClass(MapForBrazil.class);
+        j.setReducerClass(ReduceForBrazil.class);
+
+        // definicao dos tipos de saida
+        j.setOutputKeyClass(GroupByCommdtAvgBrazil.class);
+        j.setOutputValueClass(CommdtAvgBrazilWritable.class);
+        j.setMapOutputKeyClass(GroupByCommdtAvgBrazil.class);
+        j.setMapOutputValueClass(CommdtAvgBrazilWritable.class);
+
+        // cadastro dos arquivos de entrada e saida
+        FileInputFormat.addInputPath(j, input);
+        FileOutputFormat.setOutputPath(j, output);
+
+        // lanca o job e aguarda sua execucao
+        System.exit(j.waitForCompletion(true) ? 0 : 1);
+    }
+
+    public static class MapForBrazil extends Mapper<LongWritable, Text, GroupByCommdtAvgBrazil, CommdtAvgBrazilWritable> {
+        public void map(LongWritable key, Text value, Context con)
+                throws IOException, InterruptedException {
+            String text = value.toString();
+            if(text.startsWith("country_or_area")){
+                return;
+            }
+
+            String [] line = text.split("\t");
+            String [] columns = line[0].split(";");
+            String year = columns[1];
+            String country = columns[0];
+            String flow = columns[4];
+            String category = columns[9];
+            String unityType = columns[7];
+
+            Double sum = Double.parseDouble(columns[5]);
+
+            if (country.equals("Brazil") && flow.equals("Export")) {
+                GroupByCommdtAvgBrazil groupby = new GroupByCommdtAvgBrazil(year, country, flow, category, unityType);
+
+                CommdtAvgBrazilWritable val = new CommdtAvgBrazilWritable(1, sum);
+
+                con.write(groupby, val);
+            } else {
+                return;
+            }
+        }
+    }
+
+    public static class ReduceForBrazil extends Reducer<GroupByCommdtAvgBrazil, CommdtAvgBrazilWritable, GroupByCommdtAvgBrazil, DoubleWritable> {
+        public void reduce(GroupByCommdtAvgBrazil groupby, Iterable<CommdtAvgBrazilWritable> values, Context con)
+                throws IOException, InterruptedException {
+            Double sumPrice = 0.0;
+            int sumN = 0;
+            for (CommdtAvgBrazilWritable val : values) {
+                sumN += val.getN();
+                sumPrice += val.getPrice();
+            }
+            Double avg = sumPrice/sumN;
+
+            con.write(groupby, new DoubleWritable(avg));
+        }
+    }
+
+}

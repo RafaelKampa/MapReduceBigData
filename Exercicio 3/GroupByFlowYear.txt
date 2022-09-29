@@ -1,0 +1,93 @@
+//Rafael Gilberto Kampa
+//The number of transactions per flow type and year;
+
+package tde1.exercicio3;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.*;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
+import org.apache.log4j.BasicConfigurator;
+import java.io.IOException;
+
+public class GroupByFlowYear {
+    public String flow;
+    public String year;
+
+    public static void main(String[] args) throws Exception {
+        BasicConfigurator.configure();
+        Configuration c = new Configuration();
+        String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
+        // arquivo de entrada
+        Path input = new Path(files[0]);
+        // arquivo de saida
+        Path output = new Path(files[1]);
+        // criacao do job e seu nome
+        Job j = new Job(c, "groupByFlowYear");
+        // registro das classes
+        j.setJarByClass(GroupByFlowYear.class);
+        j.setMapperClass(MapFlowYear.class);
+        j.setReducerClass(ReduceFlowYear.class);
+        // definicao dos tipos de saida
+        j.setOutputKeyClass(GroupByFlowYearWritable.class);
+        j.setOutputValueClass(IntWritable.class);
+        // cadastro dos arquivos de entrada e saida
+        FileInputFormat.addInputPath(j,input);
+        FileOutputFormat.setOutputPath(j,output);
+        // lanca o job e aguarda sua execucao
+        System.exit(j.waitForCompletion(true) ? 0 : 1);
+    }
+    /**
+     * Classe de MAP
+     * Formato geral: Mapper<Tipo da chave de entrada,
+     *                       Tipo da entrada,
+     *                       Tipo da chave de saida,
+     *                       Tipo da saida>
+     */
+    public static class MapFlowYear extends Mapper<LongWritable, Text, GroupByFlowYearWritable,
+            IntWritable> {
+        public void map(LongWritable key, Text value, Context con)
+                throws IOException, InterruptedException {
+            String text = value.toString();
+            if(text.startsWith("country_or_area")){
+                return;
+            }
+            String [] line = text.split("\t");
+            String [] columns = line[0].split(";");
+
+            GroupByFlowYearWritable flowYear = new GroupByFlowYearWritable(columns[4], columns[1]);
+
+            IntWritable year = new IntWritable(1);
+            con.write(flowYear, year);
+
+        }
+    }
+    /**
+     * Classe de Reduce
+     * Formato geral: Reducer<Tipo da chave de Entrada,
+     *                        Tipo do Valor de Entrada,
+     *                        Tipo da chave de Saida,
+     *                        Tipo do Valor de Saida>
+     *
+     *
+     * Importante: note que o tipo do valor de entrada n eh uma lista!
+     */
+    public static class ReduceFlowYear extends Reducer<GroupByFlowYearWritable, IntWritable, GroupByFlowYearWritable,
+            IntWritable> {
+        public void reduce(GroupByFlowYearWritable key, Iterable<IntWritable> values, Context con)
+                throws IOException, InterruptedException {
+            int sum = 0;
+
+            for(IntWritable v : values) {
+                sum = sum + v.get();
+            }
+
+            con.write(key, new IntWritable(sum));
+        }
+    }
+}

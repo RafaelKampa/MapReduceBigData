@@ -1,0 +1,58 @@
+package tde1.exercicio5;
+
+import org.apache.hadoop.io.Writable;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+public class CommdtAvgBrazilWritable implements Writable {
+    private int n;
+    private Double price;
+
+    public CommdtAvgBrazilWritable(){
+
+    }
+
+    public CommdtAvgBrazilWritable(int n, Double price){
+        this.price = price;
+        this.n = n;
+    }
+
+    @Override
+    public void readFields(DataInput in) throws IOException {
+        price = in.readDouble();
+        n = in.readInt();
+    }
+
+    @Override
+    public void write(DataOutput out) throws  IOException {
+        out.writeDouble(price);
+        out.writeInt(n);
+    }
+
+    public int getN(){
+        return this.n;
+    }
+
+    public void setN(){
+        this.n = n;
+    }
+
+    public void setN(int n) {
+        this.n = n;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return " Avg price = " + price;
+    }
+}

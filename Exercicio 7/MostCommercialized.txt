@@ -1,0 +1,92 @@
+//Rafael Gilberto Kampa
+//The most commercialized commodity (summing the quantities) in 2016, per flow type;
+package tde1.exercicio7;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
+import org.apache.log4j.BasicConfigurator;
+
+import java.io.IOException;
+
+public class MostCommercialized {
+
+    public static void main(String args[]) throws IOException,
+            ClassNotFoundException,
+            InterruptedException {
+        BasicConfigurator.configure();
+
+        Configuration c = new Configuration();
+        String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
+        // arquivo de entrada
+        Path input = new Path(files[0]);
+
+        // arquivo de saida
+        Path output = new Path(files[1]);
+
+        // criacao do job e seu nome
+        Job j = new Job(c, "maxMinAvg");
+
+        // registro das classes
+        j.setJarByClass(MostCommercialized.class);
+        j.setMapperClass(MapMaxMinAvg.class);
+        j.setReducerClass(ReduceMaxMinAvg.class);
+
+        // definicao dos tipos de saida
+        j.setOutputKeyClass(GroupByMostCommercialized.class);
+        j.setOutputValueClass(MostCommercializedWritable.class);
+        j.setMapOutputKeyClass(GroupByMostCommercialized.class);
+        j.setMapOutputValueClass(MostCommercializedWritable.class);
+
+        // cadastro dos arquivos de entrada e saida
+        FileInputFormat.addInputPath(j, input);
+        FileOutputFormat.setOutputPath(j, output);
+
+        // lanca o job e aguarda sua execucao
+        System.exit(j.waitForCompletion(true) ? 0 : 1);
+    }
+
+    public static class MapMaxMinAvg extends Mapper<LongWritable, Text, GroupByMostCommercialized, MostCommercializedWritable> {
+        public void map(LongWritable key, Text value, Context con)
+                throws IOException, InterruptedException {
+            String text = value.toString();
+            if(text.startsWith("country_or_area")){
+                return;
+            }
+
+            String [] line = text.split("\t");
+            String [] columns = line[0].split(";");
+            String year = columns[1];
+            String commodity = columns[3];
+            String flow = columns[4];
+
+            if (year.equals(2016)) {
+                GroupByMostCommercialized groupby = new GroupByMostCommercialized(year, commodity, flow);
+                MostCommercializedWritable val = new MostCommercializedWritable(1);
+                con.write(groupby, val);
+            }
+        }
+    }
+
+    public static class ReduceMaxMinAvg extends Reducer<GroupByMostCommercialized, MostCommercializedWritable, GroupByMostCommercialized, IntWritable> {
+        public void reduce(GroupByMostCommercialized groupby, Iterable<MostCommercializedWritable> values, Context con)
+                throws IOException, InterruptedException {
+            Integer sum = 0;
+
+            for (MostCommercializedWritable val : values) {
+                sum += val.getN();
+            }
+
+            con.write(groupby, new IntWritable(sum));
+        }
+    }
+
+}

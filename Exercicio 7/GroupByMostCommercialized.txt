@@ -1,0 +1,83 @@
+package tde1.exercicio7;
+import org.apache.hadoop.io.WritableComparable;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+public class GroupByMostCommercialized implements WritableComparable<GroupByMostCommercialized> {
+    public String year;
+    public String commodity;
+    public String flow;
+
+    public GroupByMostCommercialized() {
+    }
+
+    public GroupByMostCommercialized(String year, String commodity, String flow) {
+        this.year = year;
+        this.commodity = commodity;
+        this.flow = flow;
+    }
+
+    @Override
+    public int compareTo(GroupByMostCommercialized obj) {
+        if (obj == null) {
+            return 0;
+        }
+        int val = year.compareTo(obj.year);
+        int val2 = commodity.compareTo(obj.commodity);
+        int val3 = flow.compareTo(obj.flow);
+
+        if (val != 0){
+            return val;
+        }
+        if (val2 != 0){
+            return val2;
+        } else {
+            return val3;
+        }
+    }
+
+    @Override
+    public void write(DataOutput dataOutput) throws IOException {
+        dataOutput.writeUTF(year);
+        dataOutput.writeUTF(commodity);
+        dataOutput.writeUTF(flow);
+    }
+
+    @Override
+    public void readFields(DataInput dataInput) throws IOException {
+        year = dataInput.readUTF();
+        commodity = dataInput.readUTF();
+        flow = dataInput.readUTF();
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
+    public String getCommodity() {
+        return commodity;
+    }
+
+    public void setCommodity(String commodity) {
+        this.commodity = commodity;
+    }
+
+    public String getFlow() {
+        return flow;
+    }
+
+    public void setFlow(String flow) {
+        this.flow = flow;
+    }
+
+    @Override
+    public String toString() {
+        return year + " - " + commodity + " - " + flow + " Total =";
+    }
+}

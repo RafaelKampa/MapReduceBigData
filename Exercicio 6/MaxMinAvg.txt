@@ -1,0 +1,107 @@
+//Rafael Gilberto Kampa
+//The maximum, minimum, and mean transaction price per unit type and year;
+package tde1.exercicio6;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
+import org.apache.log4j.BasicConfigurator;
+
+import java.io.IOException;
+import java.io.StringWriter;
+
+public class MaxMinAvg {
+
+    public static void main(String args[]) throws IOException,
+            ClassNotFoundException,
+            InterruptedException {
+        BasicConfigurator.configure();
+
+        Configuration c = new Configuration();
+        String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
+        // arquivo de entrada
+        Path input = new Path(files[0]);
+
+        // arquivo de saida
+        Path output = new Path(files[1]);
+
+        // criacao do job e seu nome
+        Job j = new Job(c, "maxMinAvg");
+
+        // registro das classes
+        j.setJarByClass(MaxMinAvg.class);
+        j.setMapperClass(MapMaxMinAvg.class);
+        j.setReducerClass(ReduceMaxMinAvg.class);
+
+        // definicao dos tipos de saida
+        j.setOutputKeyClass(GroupByMaxMinAvg.class);
+        j.setOutputValueClass(MaxMinAvgWritable.class);
+        j.setMapOutputKeyClass(GroupByMaxMinAvg.class);
+        j.setMapOutputValueClass(MaxMinAvgWritable.class);
+
+        // cadastro dos arquivos de entrada e saida
+        FileInputFormat.addInputPath(j, input);
+        FileOutputFormat.setOutputPath(j, output);
+
+        // lanca o job e aguarda sua execucao
+        System.exit(j.waitForCompletion(true) ? 0 : 1);
+    }
+
+    public static class MapMaxMinAvg extends Mapper<LongWritable, Text, GroupByMaxMinAvg, MaxMinAvgWritable> {
+        public void map(LongWritable key, Text value, Context con)
+                throws IOException, InterruptedException {
+            String text = value.toString();
+            if(text.startsWith("country_or_area")){
+                return;
+            }
+
+            String [] line = text.split("\t");
+            String [] columns = line[0].split(";");
+            String year = columns[1];
+            String unityType = columns[7];
+
+            Double sum = Double.parseDouble(columns[5]);
+            Double min = 100000000000.0;
+            Double max = 0.0;
+
+            GroupByMaxMinAvg groupby = new GroupByMaxMinAvg(year, unityType);
+
+            MaxMinAvgWritable val = new MaxMinAvgWritable(1, sum, min, max);
+
+            con.write(groupby, val);
+        }
+    }
+
+    public static class ReduceMaxMinAvg extends Reducer<GroupByMaxMinAvg, MaxMinAvgWritable, GroupByMaxMinAvg, Text> {
+        public void reduce(GroupByMaxMinAvg groupby, Iterable<MaxMinAvgWritable> values, Context con)
+                throws IOException, InterruptedException {
+            Double sumPrice = 0.0;
+            Double min = 100000000000.0;
+            Double max = 0.0;
+
+            int sumN = 0;
+            for (MaxMinAvgWritable val : values) {
+                sumN += val.getN();
+                sumPrice += val.getPrice();
+                if (min > val.getPrice()) {
+                    min = val.getPrice();
+                }
+                if (max < val.getPrice()) {
+                    max = val.getPrice();
+                }
+            }
+            Double mean = sumPrice/sumN;
+
+            con.write(groupby, new Text("Mean = " + mean.toString() + " / Min = " + min + " / Max = " + max));
+        }
+    }
+
+}

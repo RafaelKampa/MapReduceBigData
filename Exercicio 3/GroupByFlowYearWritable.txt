@@ -1,0 +1,62 @@
+package tde1.exercicio3;
+
+import org.apache.hadoop.io.WritableComparable;
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+public class GroupByFlowYearWritable implements WritableComparable<GroupByFlowYearWritable> {
+    public String flow;
+    public String year;
+
+    public GroupByFlowYearWritable() {
+
+    }
+
+    public GroupByFlowYearWritable(String flow, String year) {
+        this.flow = flow;
+        this.year = year;
+    }
+
+    @Override
+    public int compareTo(GroupByFlowYearWritable obj) {
+        if (obj == null){
+            return 0;
+        }
+        int val = flow.compareTo(obj.flow);
+        return val == 0 ? year.compareTo(obj.year) : val;
+    }
+
+    @Override
+    public void write(DataOutput dataOutput) throws IOException {
+        dataOutput.writeUTF(flow);
+        dataOutput.writeUTF(year);
+    }
+
+    @Override
+    public void readFields(DataInput dataInput) throws IOException {
+        flow = dataInput.readUTF();
+        year = dataInput.readUTF();
+    }
+
+    public String getFlow() {
+        return flow;
+    }
+
+    public void setFlow(String flow) {
+        this.flow = flow;
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
+    @Override
+    public String toString() {
+        return flow + ", " + year + " - Total Transactions = ";
+    }
+}

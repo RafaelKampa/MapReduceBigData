@@ -1,0 +1,94 @@
+//Rafael Gilberto Kampa
+//The average of commodity values per year;
+
+package tde1.exercicio4;
+
+import org.apache.commons.codec.language.DoubleMetaphone;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.*;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
+import org.apache.log4j.BasicConfigurator;
+
+import java.io.IOException;
+
+public class CommdtYearAvg {
+
+    public static void main(String args[]) throws IOException,
+            ClassNotFoundException,
+            InterruptedException {
+        BasicConfigurator.configure();
+
+        Configuration c = new Configuration();
+        String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
+        // arquivo de entrada
+        Path input = new Path(files[0]);
+
+        // arquivo de saida
+        Path output = new Path(files[1]);
+
+        // criacao do job e seu nome
+        Job j = new Job(c, "commodityYearAvgPrice");
+
+        // registro das classes
+        j.setJarByClass(CommdtYearAvg.class);
+        j.setMapperClass(MapForCommodityYear.class);
+        j.setReducerClass(ReduceForCommodityYear.class);
+
+        // definicao dos tipos de saida
+        j.setOutputKeyClass(GroupByCommdtYearAvg.class);
+        j.setOutputValueClass(CommdtYearAvgWritable.class);
+        j.setMapOutputKeyClass(GroupByCommdtYearAvg.class);
+        j.setMapOutputValueClass(CommdtYearAvgWritable.class);
+
+        // cadastro dos arquivos de entrada e saida
+        FileInputFormat.addInputPath(j, input);
+        FileOutputFormat.setOutputPath(j, output);
+
+        // lanca o job e aguarda sua execucao
+        System.exit(j.waitForCompletion(true) ? 0 : 1);
+    }
+
+    public static class MapForCommodityYear extends Mapper<LongWritable, Text, GroupByCommdtYearAvg, CommdtYearAvgWritable> {
+        public void map(LongWritable key, Text value, Context con)
+                throws IOException, InterruptedException {
+            String text = value.toString();
+            if(text.startsWith("country_or_area")){
+                return;
+            }
+
+            String [] line = text.split("\t");
+            String [] columns = line[0].split(";");
+            String year = columns[1];
+            String commodityName = columns[3];
+            Double sum = Double.parseDouble(columns[5]);
+
+            GroupByCommdtYearAvg groupby = new GroupByCommdtYearAvg(year, commodityName);
+
+            CommdtYearAvgWritable val = new CommdtYearAvgWritable(1, sum);
+
+            con.write(groupby, val);
+        }
+    }
+
+    public static class ReduceForCommodityYear extends Reducer<GroupByCommdtYearAvg, CommdtYearAvgWritable, GroupByCommdtYearAvg, DoubleWritable> {
+        public void reduce(GroupByCommdtYearAvg groupby, Iterable<CommdtYearAvgWritable> values, Context con)
+                throws IOException, InterruptedException {
+            Double sumPrices = 0.0;
+            int sumN = 0;
+            for (CommdtYearAvgWritable val : values) {
+                sumN += val.getN();
+                sumPrices += val.getPrice();
+            }
+            Double avg = sumPrices/sumN;
+
+            con.write(groupby, new DoubleWritable(avg));
+        }
+    }
+
+}

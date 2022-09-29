@@ -1,0 +1,86 @@
+//Rafael Gilberto Kampa
+//The number of transactions per year;
+
+package tde1.exercicio2;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
+import org.apache.log4j.BasicConfigurator;
+
+import java.io.IOException;
+
+public class GroupByYear {
+    public static void main(String[] args) throws Exception {
+        BasicConfigurator.configure();
+
+        Configuration c = new Configuration();
+        String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
+
+        // arquivo de entrada
+        Path input = new Path(files[0]);
+
+        // arquivo de saida
+        Path output = new Path(files[1]);
+
+        Job j = new Job(c, "groupByYear");
+
+        j.setJarByClass(GroupByYear.class);
+        j.setMapperClass(GroupByYear.MapForGroupBy.class);
+        j.setReducerClass(GroupByYear.ReducerForGroupBy.class);
+
+
+        j.setOutputKeyClass(tde1.exercicio2.GroupByYearWritable.class);
+        j.setOutputValueClass(IntWritable.class);
+
+        j.setMapOutputValueClass(IntWritable.class);
+        j.setMapOutputKeyClass(GroupByYearWritable.class);
+
+        FileInputFormat.addInputPath(j,input);
+        FileOutputFormat.setOutputPath(j,output);
+
+        System.exit(j.waitForCompletion(true)? 0 : 1);
+    }
+
+    public static class MapForGroupBy extends Mapper<Object, Text, tde1.exercicio2.GroupByYearWritable, IntWritable> {
+        public void map(Object key, Text value, Context context)
+                throws IOException,InterruptedException {
+            // Carregamento do bloco e conversao dele para string
+            String texto = value.toString();
+            if(texto.startsWith("country_or_area")){
+                return;
+            }
+            String[] line =  texto.split("\t");
+
+            // fazendo o split para obter as palavras de forma isolada
+            String[] values = line[0].split(";");
+
+            // emitir s dos agrupados
+            GroupByYearWritable yearCont = new GroupByYearWritable(values[1]);
+            IntWritable cont = new IntWritable(1);
+
+            // emissao
+            context.write(yearCont, cont);
+        }
+    }
+
+    public static class ReducerForGroupBy extends Reducer<tde1.exercicio2.GroupByYearWritable, IntWritable, GroupByYearWritable, IntWritable> {
+        public void reduce(tde1.exercicio2.GroupByYearWritable key,
+                           Iterable<IntWritable> values,
+                           Context context) throws IOException, InterruptedException {
+            int sum = 0;
+
+            for(IntWritable v : values) {
+                sum = sum + v.get();
+            }
+            context.write(key, new IntWritable(sum));
+        }
+    }
+}

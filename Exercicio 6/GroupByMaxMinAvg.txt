@@ -1,0 +1,81 @@
+package tde1.exercicio6;
+import org.apache.hadoop.io.WritableComparable;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+public class GroupByMaxMinAvg implements WritableComparable<GroupByMaxMinAvg> {
+    public String year;
+    public String unitiType;
+    public Double min;
+    public Double max;
+
+
+    public GroupByMaxMinAvg(String year, String unitiType) {
+        this.year = year;
+        this.unitiType = unitiType;
+
+    }
+
+    public GroupByMaxMinAvg() {
+    }
+
+    @Override
+    public int compareTo(GroupByMaxMinAvg obj) {
+        if (obj == null) {
+            return 0;
+        }
+        int val = year.compareTo(obj.year);
+        return val == 0 ? unitiType.compareTo(obj.unitiType) : val;
+    }
+
+    @Override
+    public void write(DataOutput dataOutput) throws IOException {
+        dataOutput.writeUTF(year);
+        dataOutput.writeUTF(unitiType);
+    }
+
+    @Override
+    public void readFields(DataInput dataInput) throws IOException {
+        year = dataInput.readUTF();
+        unitiType = dataInput.readUTF();
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
+    public String getUnitiType() {
+        return unitiType;
+    }
+
+    public void setUnitiType(String unitiType) {
+        this.unitiType = unitiType;
+    }
+
+    public Double getMin() {
+        return min;
+    }
+
+    public void setMin(Double min) {
+        this.min = min;
+    }
+
+    public Double getMax() {
+        return max;
+    }
+
+    public void setMax(Double max) {
+        this.max = max;
+    }
+
+    @Override
+    public String toString() {
+        return year + " - " + unitiType + " - Prices =";
+    }
+}
