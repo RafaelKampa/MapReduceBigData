@@ -8,26 +8,26 @@ import java.io.IOException;
 
 public class CommdtAvgBrazilWritable implements Writable {
     private int n;
-    private Double price;
+    private long price;
 
     public CommdtAvgBrazilWritable(){
 
     }
 
-    public CommdtAvgBrazilWritable(int n, Double price){
+    public CommdtAvgBrazilWritable(int n, long price){
         this.price = price;
         this.n = n;
     }
 
     @Override
     public void readFields(DataInput in) throws IOException {
-        price = in.readDouble();
+        price = in.readLong();
         n = in.readInt();
     }
 
     @Override
     public void write(DataOutput out) throws  IOException {
-        out.writeDouble(price);
+        out.writeLong(price);
         out.writeInt(n);
     }
 
@@ -43,11 +43,11 @@ public class CommdtAvgBrazilWritable implements Writable {
         this.n = n;
     }
 
-    public Double getPrice() {
+    public long getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(long price) {
         this.price = price;
     }
 

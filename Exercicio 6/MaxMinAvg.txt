@@ -4,7 +4,6 @@ package tde1.exercicio6;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -68,13 +67,11 @@ public class MaxMinAvg {
             String year = columns[1];
             String unityType = columns[7];
 
-            Double sum = Double.parseDouble(columns[5]);
-            Double min = 100000000000.0;
-            Double max = 0.0;
+            long sum = Long.parseLong(columns[5]);
 
             GroupByMaxMinAvg groupby = new GroupByMaxMinAvg(year, unityType);
 
-            MaxMinAvgWritable val = new MaxMinAvgWritable(1, sum, min, max);
+            MaxMinAvgWritable val = new MaxMinAvgWritable(1, sum);
 
             con.write(groupby, val);
         }
@@ -83,14 +80,20 @@ public class MaxMinAvg {
     public static class ReduceMaxMinAvg extends Reducer<GroupByMaxMinAvg, MaxMinAvgWritable, GroupByMaxMinAvg, Text> {
         public void reduce(GroupByMaxMinAvg groupby, Iterable<MaxMinAvgWritable> values, Context con)
                 throws IOException, InterruptedException {
-            Double sumPrice = 0.0;
-            Double min = 100000000000.0;
-            Double max = 0.0;
+            long sumPrice = 0;
+            long min = 0;
+            long max = 0;
 
             int sumN = 0;
             for (MaxMinAvgWritable val : values) {
                 sumN += val.getN();
                 sumPrice += val.getPrice();
+                if (min == 0) {
+                    min = val.getPrice();
+                }
+                if (max == 0) {
+                    max = val.getPrice();
+                }
                 if (min > val.getPrice()) {
                     min = val.getPrice();
                 }
@@ -98,9 +101,9 @@ public class MaxMinAvg {
                     max = val.getPrice();
                 }
             }
-            Double mean = sumPrice/sumN;
+            long mean = sumPrice/sumN;
 
-            con.write(groupby, new Text("Mean = " + mean.toString() + " / Min = " + min + " / Max = " + max));
+            con.write(groupby, new Text("Mean = " + mean + " / Min = " + min + " / Max = " + max));
         }
     }
 

@@ -15,7 +15,6 @@ public class GroupByMaxMinAvg implements WritableComparable<GroupByMaxMinAvg> {
     public GroupByMaxMinAvg(String year, String unitiType) {
         this.year = year;
         this.unitiType = unitiType;
-
     }
 
     public GroupByMaxMinAvg() {

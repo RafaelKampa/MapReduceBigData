@@ -10,35 +10,27 @@ import java.io.IOException;
 
 public class MaxMinAvgWritable implements Writable {
     private int n;
-    private Double price;
-    private Double min;
-    private Double max;
+    private long price;
 
     public MaxMinAvgWritable(){
-
     }
 
-    public MaxMinAvgWritable(int n, Double price, Double min, Double max) {
+    public MaxMinAvgWritable(int n, long price) {
         this.n = n;
         this.price = price;
-        this.min = min;
-        this.max = max;
+
     }
 
     @Override
     public void readFields(DataInput in) throws IOException {
-        price = in.readDouble();
+        price = in.readLong();
         n = in.readInt();
-        min = in.readDouble();
-        max = in.readDouble();
     }
 
     @Override
     public void write(DataOutput out) throws  IOException {
-        out.writeDouble(price);
+        out.writeLong(price);
         out.writeInt(n);
-        out.writeDouble(min);
-        out.writeDouble(max);
     }
 
     public int getN(){
@@ -53,41 +45,17 @@ public class MaxMinAvgWritable implements Writable {
         this.n = n;
     }
 
-    public Double getPrice() {
+    public long getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(long price) {
         this.price = price;
-    }
-
-    public Double getMin() {
-        return min;
-    }
-
-    public void setMin(Double min) {
-        if (getMin() < getPrice()) {
-            this.min = min;
-        } else {
-            this.min = getPrice();
-        }
-    }
-
-    public Double getMax() {
-        return max;
-    }
-
-    public void setMax(Double max) {
-        if (getMax() > getPrice()){
-            this.max = max;
-        } else {
-            this.max = getPrice();
-        }
     }
 
     @Override
     public String toString() {
-        return " Avg price = " + price + " - Min = " + min + " - Max = " + max;
+        return " Avg price = " + price;
     }
 
 }

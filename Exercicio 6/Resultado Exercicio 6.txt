@@ -1,268 +1,268 @@
-1988 - Area in square metres - Prices =	Mean = 6958580.006622517 / Min = 7.0 / Max = 4.03386005E8
-1988 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 5512366.0 / Min = 5512366.0 / Max = 5512366.0
-1988 - Length in metres - Prices =	Mean = 1996338.7916666667 / Min = 2220.0 / Max = 1.4090989E7
-1988 - Number of items - Prices =	Mean = 1.3709735868804665E7 / Min = 62.0 / Max = 9.3395132E8
-1988 - Number of pairs - Prices =	Mean = 2968403.88 / Min = 1069.0 / Max = 2.9145623E7
-1988 - Volume in litres - Prices =	Mean = 8.903355118110237E7 / Min = 6.0 / Max = 1.842330097E10
-1988 - Weight in kilograms - Prices =	Mean = 1.4803935781724581E7 / Min = 7.0 / Max = 5.171219963E9
-1989 - Area in square metres - Prices =	Mean = 5621584.1809290955 / Min = 28.0 / Max = 3.67370724E8
-1989 - Length in metres - Prices =	Mean = 1570690.6483516484 / Min = 518.0 / Max = 4.9498556E7
-1989 - Number of items - Prices =	Mean = 1.4618216994802495E7 / Min = 8.0 / Max = 4.567785853E9
-1989 - Number of pairs - Prices =	Mean = 5009715.433333334 / Min = 36.0 / Max = 1.30535951E8
-1989 - Volume in litres - Prices =	Mean = 2.903838062123894E7 / Min = 3.0 / Max = 3.90040576E9
-1989 - Weight in kilograms - Prices =	Mean = 1.0364929182174472E7 / Min = 1.0 / Max = 5.450526322E9
-1990 - Area in square metres - Prices =	Mean = 4980620.789823009 / Min = 15.0 / Max = 3.20431542E8
-1990 - Length in metres - Prices =	Mean = 2765201.588235294 / Min = 174.0 / Max = 5.9557455E7
-1990 - Number of items - Prices =	Mean = 2.9381585801783945E7 / Min = 9.0 / Max = 8.600394514E9
-1990 - Number of pairs - Prices =	Mean = 6225074.855421687 / Min = 130.0 / Max = 1.19229449E8
-1990 - Volume in litres - Prices =	Mean = 5.4631538890855454E7 / Min = 3.0 / Max = 1.2670429184E10
-1990 - Weight in kilograms - Prices =	Mean = 1.072097353031925E7 / Min = 1.0 / Max = 4.4807552E9
-1991 - Area in square metres - Prices =	Mean = 6124800.5091743115 / Min = 81.0 / Max = 4.03965643E8
-1991 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 2515.0 / Min = 2515.0 / Max = 2515.0
-1991 - Length in metres - Prices =	Mean = 1525683.4505494505 / Min = 63.0 / Max = 3.0407741E7
-1991 - Number of items - Prices =	Mean = 3.93371735125E7 / Min = 7.0 / Max = 2.2230708224E10
-1991 - Number of pairs - Prices =	Mean = 2362132.9142857143 / Min = 15.0 / Max = 2.7343021E7
-1991 - Volume in litres - Prices =	Mean = 2.7469437782771535E7 / Min = 1.0 / Max = 5.69565696E9
-1991 - Weight in kilograms - Prices =	Mean = 1.0150274370933294E7 / Min = 1.0 / Max = 9.822961664E9
-1992 - Area in square metres - Prices =	Mean = 3619758.84 / Min = 33.0 / Max = 2.30991216E8
-1992 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 5.92373504E8 / Min = 5.92373504E8 / Max = 5.92373504E8
-1992 - Length in metres - Prices =	Mean = 9981210.620155038 / Min = 4.0 / Max = 5.97289986E8
-1992 - Number of items - Prices =	Mean = 2.5003513196850393E7 / Min = 2.0 / Max = 4.8017536E9
-1992 - Number of pairs - Prices =	Mean = 3.169083104901961E7 / Min = 6.0 / Max = 8.29395508E8
-1992 - Volume in litres - Prices =	Mean = 1.8566812427580226E7 / Min = 4.0 / Max = 5.543894016E9
-1992 - Weight in carats - Prices =	Mean = 8.654455033333333E7 / Min = 57850.0 / Max = 2.63142786E8
-1992 - Weight in kilograms - Prices =	Mean = 7686159.566459373 / Min = 1.0 / Max = 4.345726846E9
-1993 - Area in square metres - Prices =	Mean = 1.0901562847583642E7 / Min = 40.0 / Max = 5.35701522E8
-1993 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 1.6497984E8 / Min = 1.6497984E8 / Max = 1.6497984E8
-1993 - Length in metres - Prices =	Mean = 1.511534086328125E7 / Min = 3.0 / Max = 3.57125211E8
-1993 - Number of items - Prices =	Mean = 2.96635120132964E7 / Min = 6.0 / Max = 1.2730875972E10
-1993 - Number of pairs - Prices =	Mean = 4.57851085E7 / Min = 201.0 / Max = 2.214192906E9
-1993 - Volume in litres - Prices =	Mean = 3.610747983391978E7 / Min = 3.0 / Max = 7.105830176E9
-1993 - Weight in kilograms - Prices =	Mean = 7342013.309998138 / Min = 1.0 / Max = 5.034622464E9
-1994 - Area in square metres - Prices =	Mean = 9559166.527075812 / Min = 99.0 / Max = 5.10143036E8
-1994 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 4122301.5 / Min = 588.0 / Max = 1.6549948E7
-1994 - Length in metres - Prices =	Mean = 2.082467012021858E7 / Min = 464.0 / Max = 6.62530374E8
-1994 - Number of items - Prices =	Mean = 4.3742075875E7 / Min = 21.0 / Max = 1.8077764326E10
-1994 - Number of pairs - Prices =	Mean = 6.806778807586206E7 / Min = 34.0 / Max = 2.434144256E9
-1994 - Volume in litres - Prices =	Mean = 3.5312545141715504E7 / Min = 2.0 / Max = 2.7233288316E10
-1994 - Weight in kilograms - Prices =	Mean = 9199368.361275496 / Min = 1.0 / Max = 7.513197056E9
-1995 - Area in square metres - Prices =	Mean = 1.5876705528735632E7 / Min = 5.0 / Max = 1.344464357E9
-1995 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 4.0169258E7 / Min = 8578900.0 / Max = 7.1759616E7
-1995 - Length in metres - Prices =	Mean = 1.55332961875E7 / Min = 58.0 / Max = 6.4714599E8
-1995 - Number of items - Prices =	Mean = 2.5954174680691913E7 / Min = 9.0 / Max = 4.270912925E9
-1995 - Number of pairs - Prices =	Mean = 7.0682655486911E7 / Min = 84.0 / Max = 2.770837671E9
-1995 - Volume in litres - Prices =	Mean = 3.040999368654767E7 / Min = 1.0 / Max = 2.9627156724E10
-1995 - Weight in kilograms - Prices =	Mean = 1.0181653588310324E7 / Min = 1.0 / Max = 1.2069552128E10
-1996 - Area in square metres - Prices =	Mean = 8351314.379190751 / Min = 31.0 / Max = 5.94472645E8
-1996 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 2.12085764E7 / Min = 1297.0 / Max = 7.3550496E7
-1996 - Length in metres - Prices =	Mean = 1.493895061967213E7 / Min = 13.0 / Max = 5.5838479E8
-1996 - Number of items - Prices =	Mean = 2.5839798798893716E7 / Min = 1.0 / Max = 5.09908325E9
-1996 - Number of pairs - Prices =	Mean = 8.935487625728156E7 / Min = 37.0 / Max = 3.064989982E9
-1996 - Volume in litres - Prices =	Mean = 3.538235027481234E7 / Min = 3.0 / Max = 3.3089229483E10
-1996 - Weight in kilograms - Prices =	Mean = 1.0359793949391386E7 / Min = 1.0 / Max = 1.2630739968E10
-1997 - Area in square metres - Prices =	Mean = 1.020990837543054E7 / Min = 5.0 / Max = 6.07300338E8
-1997 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 1.3823917E7 / Min = 1.3823917E7 / Max = 1.3823917E7
-1997 - Length in metres - Prices =	Mean = 1.1082921270491803E7 / Min = 33.0 / Max = 5.8127121E8
-1997 - Number of items - Prices =	Mean = 3.11487602891604E7 / Min = 2.0 / Max = 2.1689627081E10
-1997 - Number of pairs - Prices =	Mean = 3.1103413670833334E7 / Min = 39.0 / Max = 2.846278146E9
-1997 - Volume in litres - Prices =	Mean = 2.7849740444738835E7 / Min = 1.0 / Max = 1.5549675012E10
-1997 - Weight in kilograms - Prices =	Mean = 8904488.11681594 / Min = 1.0 / Max = 1.1160780934E10
-1998 - Area in square metres - Prices =	Mean = 8466651.945672192 / Min = 3.0 / Max = 4.34154035E8
-1998 - Length in metres - Prices =	Mean = 1.3871239311518325E7 / Min = 9.0 / Max = 8.97893948E8
-1998 - Number of items - Prices =	Mean = 2.605762100232423E7 / Min = 2.0 / Max = 3.0809119328E10
-1998 - Number of pairs - Prices =	Mean = 4.640635340569395E7 / Min = 26.0 / Max = 2.73487166E9
-1998 - Volume in litres - Prices =	Mean = 2.589546201581596E7 / Min = 1.0 / Max = 8.69458432E9
-1998 - Weight in kilograms - Prices =	Mean = 8781429.041589193 / Min = 1.0 / Max = 1.1708121148E10
-1999 - Area in square metres - Prices =	Mean = 1.0845990093573844E7 / Min = 6.0 / Max = 5.10386586E8
-1999 - Length in metres - Prices =	Mean = 1.762381830232558E7 / Min = 27.0 / Max = 9.24631049E8
-1999 - Number of items - Prices =	Mean = 3.4572085162351295E7 / Min = 5.0 / Max = 2.8083790581E10
-1999 - Number of pairs - Prices =	Mean = 5.894738927884615E7 / Min = 5.0 / Max = 2.564185308E9
-1999 - Volume in litres - Prices =	Mean = 1.573125276942629E7 / Min = 1.0 / Max = 4.975126889E9
-1999 - Weight in kilograms - Prices =	Mean = 8025898.437712094 / Min = 1.0 / Max = 1.3239518329E10
-2000 - Area in square metres - Prices =	Mean = 6214342.20130719 / Min = 3.0 / Max = 8.66669704E8
-2000 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 1.60957380625E8 / Min = 1660.0 / Max = 6.56402416E8
-2000 - Length in metres - Prices =	Mean = 9139490.694174757 / Min = 1.0 / Max = 3.22844505E8
-2000 - Number of items - Prices =	Mean = 1.7955529754878048E7 / Min = 1.0 / Max = 2.1001123596E10
-2000 - Number of packages - Prices =	Mean = 8383194.0 / Min = 436.0 / Max = 1.2698024E7
-2000 - Number of pairs - Prices =	Mean = 2.282021176958002E7 / Min = 10.0 / Max = 2.446505615E9
-2000 - Thousands of items - Prices =	Mean = 3640217.714285714 / Min = 1561.0 / Max = 2.7582183E7
-2000 - Volume in cubic meters - Prices =	Mean = 3.695516555813953E7 / Min = 26.0 / Max = 1.684068724E9
-2000 - Volume in litres - Prices =	Mean = 1.5149741024174528E7 / Min = 1.0 / Max = 3.204286039E9
-2000 - Weight in carats - Prices =	Mean = 1.8434570856989247E8 / Min = 8.0 / Max = 1.0094054474E10
-2000 - Weight in kilograms - Prices =	Mean = 1.1888254810379049E7 / Min = 1.0 / Max = 9.8728826923E10
-2001 - Area in square metres - Prices =	Mean = 5119906.156365884 / Min = 17.0 / Max = 5.37242549E8
-2001 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 1.53843328E8 / Min = 7193.0 / Max = 6.55549474E8
-2001 - Length in metres - Prices =	Mean = 6376622.476 / Min = 4.0 / Max = 2.08596732E8
-2001 - Number of items - Prices =	Mean = 1.690593246327294E7 / Min = 1.0 / Max = 1.3457514E10
-2001 - Number of packages - Prices =	Mean = 4632103.833333333 / Min = 6987.0 / Max = 1.421579E7
-2001 - Number of pairs - Prices =	Mean = 2.874388561521739E7 / Min = 2.0 / Max = 2.753274234E9
-2001 - Thousands of items - Prices =	Mean = 3407561.2352941176 / Min = 1424.0 / Max = 1.7105082E7
-2001 - Volume in cubic meters - Prices =	Mean = 1.9895955420118343E7 / Min = 109.0 / Max = 4.09365135E8
-2001 - Volume in litres - Prices =	Mean = 1.3549760972187886E7 / Min = 1.0 / Max = 1.900916127E9
-2001 - Weight in carats - Prices =	Mean = 1.8108104924444443E8 / Min = 11.0 / Max = 5.61822222E9
-2001 - Weight in kilograms - Prices =	Mean = 9021402.641189037 / Min = 1.0 / Max = 1.0391536933E10
-2002 - Area in square metres - Prices =	Mean = 7911582.276160991 / Min = 5.0 / Max = 2.094965871E9
-2002 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 3.0743581825E8 / Min = 41605.0 / Max = 1.774113687E9
-2002 - Length in metres - Prices =	Mean = 9731196.893518519 / Min = 44.0 / Max = 4.06510791E8
-2002 - Number of items - Prices =	Mean = 1.6623866827907434E7 / Min = 1.0 / Max = 1.2582020967E10
-2002 - Number of packages - Prices =	Mean = 6604406.5 / Min = 550.0 / Max = 1.3208263E7
-2002 - Number of pairs - Prices =	Mean = 1.6838372760845385E7 / Min = 9.0 / Max = 2.472780309E9
-2002 - Thousands of items - Prices =	Mean = 3659462.785714286 / Min = 1932.0 / Max = 1.2980224E7
-2002 - Volume in cubic meters - Prices =	Mean = 3.1563350744186047E7 / Min = 53.0 / Max = 1.174042321E9
-2002 - Volume in litres - Prices =	Mean = 1.7592284821059432E7 / Min = 1.0 / Max = 3.51888489E9
-2002 - Weight in carats - Prices =	Mean = 1.4281336257142857E8 / Min = 70.0 / Max = 1.0040454568E10
-2002 - Weight in kilograms - Prices =	Mean = 1.0664718453678656E7 / Min = 1.0 / Max = 2.4977049252E10
-2003 - Area in square metres - Prices =	Mean = 6213080.7859943975 / Min = 5.0 / Max = 6.22623718E8
-2003 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 2.3069874154545453E8 / Min = 7981734.0 / Max = 1.323045556E9
-2003 - Length in metres - Prices =	Mean = 5356134.329004329 / Min = 39.0 / Max = 3.51705821E8
-2003 - Number of items - Prices =	Mean = 1.812995920663677E7 / Min = 1.0 / Max = 1.3494684269E10
-2003 - Number of packages - Prices =	Mean = 6557848.5 / Min = 3059.0 / Max = 1.3074653E7
-2003 - Number of pairs - Prices =	Mean = 2.880184091168091E7 / Min = 1.0 / Max = 3.201326908E9
-2003 - Thousands of items - Prices =	Mean = 2552710.5625 / Min = 636.0 / Max = 1.5946696E7
-2003 - Volume in cubic meters - Prices =	Mean = 6.90709950913242E7 / Min = 17.0 / Max = 6.046233412E9
-2003 - Volume in litres - Prices =	Mean = 1.8317176617719952E7 / Min = 3.0 / Max = 4.220590957E9
-2003 - Weight in carats - Prices =	Mean = 1.5559189402884614E8 / Min = 11.0 / Max = 8.611470301E9
-2003 - Weight in kilograms - Prices =	Mean = 1.3297803661576679E7 / Min = 1.0 / Max = 3.4008604103E10
-2004 - Area in square metres - Prices =	Mean = 9265948.942795467 / Min = 5.0 / Max = 3.009825861E9
-2004 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 3.1372816435714287E8 / Min = 4654835.0 / Max = 2.554542956E9
-2004 - Length in metres - Prices =	Mean = 8447628.069620254 / Min = 32.0 / Max = 2.91372903E8
-2004 - Number of items - Prices =	Mean = 2.5256504645344768E7 / Min = 1.0 / Max = 2.0743023232E10
-2004 - Number of packages - Prices =	Mean = 436233.5 / Min = 57137.0 / Max = 815330.0
-2004 - Number of pairs - Prices =	Mean = 2.32229026913242E7 / Min = 1.0 / Max = 3.482426452E9
-2004 - Thousands of items - Prices =	Mean = 3116520.55 / Min = 1541.0 / Max = 2.1448206E7
-2004 - Volume in cubic meters - Prices =	Mean = 4.2774729605536334E7 / Min = 10.0 / Max = 2.770633668E9
-2004 - Volume in litres - Prices =	Mean = 1.3336142797228301E7 / Min = 2.0 / Max = 2.584873951E9
-2004 - Weight in carats - Prices =	Mean = 1.3909322334951457E8 / Min = 26.0 / Max = 1.112013255E10
-2004 - Weight in kilograms - Prices =	Mean = 1.3768250504396712E7 / Min = 1.0 / Max = 3.707016681E10
-2005 - Area in square metres - Prices =	Mean = 8168029.506660324 / Min = 5.0 / Max = 2.660817656E9
-2005 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 5.33058761E8 / Min = 76645.0 / Max = 3.98326124E9
-2005 - Length in metres - Prices =	Mean = 5895053.445945946 / Min = 17.0 / Max = 4.07799035E8
-2005 - Number of items - Prices =	Mean = 2.436951485549085E7 / Min = 1.0 / Max = 3.1772203686E10
-2005 - Number of packages - Prices =	Mean = 6903284.0 / Min = 2102.0 / Max = 2.011314E7
-2005 - Number of pairs - Prices =	Mean = 2.210796545470233E7 / Min = 7.0 / Max = 1.663570687E9
-2005 - Thousands of items - Prices =	Mean = 5645229.1875 / Min = 1480.0 / Max = 2.1338871E7
-2005 - Volume in cubic meters - Prices =	Mean = 2.1613620009375E7 / Min = 6.0 / Max = 7.40206429E8
-2005 - Volume in litres - Prices =	Mean = 1.835257282140166E7 / Min = 3.0 / Max = 2.981746813E9
-2005 - Weight in carats - Prices =	Mean = 2.8283624216129035E8 / Min = 16.0 / Max = 1.2906508575E10
-2005 - Weight in kilograms - Prices =	Mean = 1.6236212473675895E7 / Min = 1.0 / Max = 4.5281302495E10
-2006 - Area in square metres - Prices =	Mean = 6720710.292740047 / Min = 1.0 / Max = 8.78161148E8
-2006 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 3.378899639285714E8 / Min = 195.0 / Max = 2.112639708E9
-2006 - Length in metres - Prices =	Mean = 5342108.570652174 / Min = 11.0 / Max = 2.19740209E8
-2006 - Number of items - Prices =	Mean = 2.3047806115054987E7 / Min = 1.0 / Max = 1.7318485E10
-2006 - Number of packages - Prices =	Mean = 6278614.0 / Min = 1268.0 / Max = 1.8967942E7
-2006 - Number of pairs - Prices =	Mean = 3.0527283562600322E7 / Min = 6.0 / Max = 5.642838278E9
-2006 - Thousands of items - Prices =	Mean = 6971520.423076923 / Min = 58.0 / Max = 2.7188639E7
-2006 - Volume in cubic meters - Prices =	Mean = 4.507908727635328E7 / Min = 8.0 / Max = 7.74069244E9
-2006 - Volume in litres - Prices =	Mean = 2.8003445018099546E7 / Min = 1.0 / Max = 3.301220747E9
-2006 - Weight in carats - Prices =	Mean = 2.474952910151515E8 / Min = 17.0 / Max = 9.987653205E9
-2006 - Weight in kilograms - Prices =	Mean = 2.2895231261773862E7 / Min = 1.0 / Max = 2.62924347374E11
-2007 - Area in square metres - Prices =	Mean = 1.068438546495957E7 / Min = 2.0 / Max = 3.277831241E9
-2007 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 5.5615922924E8 / Min = 144.0 / Max = 5.600884153E9
-2007 - Length in metres - Prices =	Mean = 4890424.401869159 / Min = 7.0 / Max = 2.37596257E8
-2007 - Number of items - Prices =	Mean = 2.5506290925313827E7 / Min = 1.0 / Max = 1.9229847575E10
-2007 - Number of packages - Prices =	Mean = 5249327.617647059 / Min = 13.0 / Max = 7.9938664E7
-2007 - Number of pairs - Prices =	Mean = 2.5033581925681256E7 / Min = 5.0 / Max = 6.3139403E9
-2007 - Thousands of items - Prices =	Mean = 5738936.944444444 / Min = 846.0 / Max = 3.8903E7
-2007 - Volume in cubic meters - Prices =	Mean = 2.8906854684365783E7 / Min = 29.0 / Max = 1.894171178E9
-2007 - Volume in litres - Prices =	Mean = 3.3101479755588673E7 / Min = 2.0 / Max = 3.856636706E9
-2007 - Weight in carats - Prices =	Mean = 1.1368397276821192E8 / Min = 5.0 / Max = 7.431239099E9
-2007 - Weight in kilograms - Prices =	Mean = 2.5976180507651974E7 / Min = 1.0 / Max = 2.9089969904E11
-2008 - Area in square metres - Prices =	Mean = 8935352.723 / Min = 9.0 / Max = 1.389350118E9
-2008 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 2.4739115646875E8 / Min = 9395.0 / Max = 1.327947E9
-2008 - Length in metres - Prices =	Mean = 3453670.275132275 / Min = 25.0 / Max = 1.43606345E8
-2008 - Number of items - Prices =	Mean = 3.7837568792829424E7 / Min = 1.0 / Max = 2.5484478765E10
-2008 - Number of packages - Prices =	Mean = 7533038.259259259 / Min = 305.0 / Max = 5.557275E7
-2008 - Number of pairs - Prices =	Mean = 3.9991725244176015E7 / Min = 23.0 / Max = 8.231914307E9
-2008 - Thousands of items - Prices =	Mean = 2237544.243243243 / Min = 291.0 / Max = 3.33551E7
-2008 - Volume in cubic meters - Prices =	Mean = 2.534179338630807E7 / Min = 6.0 / Max = 2.406763157E9
-2008 - Volume in litres - Prices =	Mean = 3.854212040059568E7 / Min = 2.0 / Max = 3.829869298E9
-2008 - Weight in carats - Prices =	Mean = 8.407533944025157E7 / Min = 1.0 / Max = 7.890824513E9
-2008 - Weight in kilograms - Prices =	Mean = 2.9450739280533623E7 / Min = 1.0 / Max = 1.55473624044E11
-2009 - Area in square metres - Prices =	Mean = 7404917.432286556 / Min = 1.0 / Max = 6.8264755E8
-2009 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 5.071441551666667E8 / Min = 65.0 / Max = 4.908754338E9
-2009 - Length in metres - Prices =	Mean = 3991476.2095238096 / Min = 1.0 / Max = 2.13328038E8
-2009 - Number of items - Prices =	Mean = 2.9604700863752533E7 / Min = 1.0 / Max = 2.3976439537E10
-2009 - Number of packages - Prices =	Mean = 3230661.8181818184 / Min = 931.0 / Max = 2.686668E7
-2009 - Number of pairs - Prices =	Mean = 2.6123782418825563E7 / Min = 6.0 / Max = 5.91579832E9
-2009 - Thousands of items - Prices =	Mean = 4377060.722222222 / Min = 225.0 / Max = 2.6547252E7
-2009 - Volume in cubic meters - Prices =	Mean = 2.81089680754717E7 / Min = 13.0 / Max = 3.308301706E9
-2009 - Volume in litres - Prices =	Mean = 3.3814998670986325E7 / Min = 1.0 / Max = 4.900930181E9
-2009 - Weight in carats - Prices =	Mean = 3.183897271172414E8 / Min = 25.0 / Max = 9.731832824E9
-2009 - Weight in kilograms - Prices =	Mean = 2.489115107655723E7 / Min = 1.0 / Max = 8.925558669E10
-2010 - Area in square metres - Prices =	Mean = 9349192.227799227 / Min = 1.0 / Max = 1.998210185E9
-2010 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 3.926910433181818E8 / Min = 41.0 / Max = 2.657264856E9
-2010 - Length in metres - Prices =	Mean = 2360966.9684210527 / Min = 40.0 / Max = 1.56735741E8
-2010 - Number of items - Prices =	Mean = 2.3065208040137615E7 / Min = 2.0 / Max = 1.8013686654E10
-2010 - Number of packages - Prices =	Mean = 3887001.1463414636 / Min = 61.0 / Max = 5.7550617E7
-2010 - Number of pairs - Prices =	Mean = 3.358452691748004E7 / Min = 5.0 / Max = 4.959592644E9
-2010 - Thousands of items - Prices =	Mean = 3290006.6944444445 / Min = 361.0 / Max = 3.0578961E7
-2010 - Volume in cubic meters - Prices =	Mean = 4.6924799266666666E7 / Min = 25.0 / Max = 4.037940225E9
-2010 - Volume in litres - Prices =	Mean = 3.253992467454798E7 / Min = 1.0 / Max = 6.713175841E9
-2010 - Weight in carats - Prices =	Mean = 3.406950333090909E8 / Min = 4.0 / Max = 1.8713841322E10
-2010 - Weight in kilograms - Prices =	Mean = 2.8822456939314935E7 / Min = 1.0 / Max = 1.05814257878E11
-2011 - Area in square metres - Prices =	Mean = 9842098.214559387 / Min = 1.0 / Max = 2.597261708E9
-2011 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 4.19370509E8 / Min = 2212.0 / Max = 3.982338445E9
-2011 - Length in metres - Prices =	Mean = 1290705.1412429379 / Min = 10.0 / Max = 5.8172373E7
-2011 - Number of items - Prices =	Mean = 3.011072459994667E7 / Min = 1.0 / Max = 2.5968314331E10
-2011 - Number of packages - Prices =	Mean = 3424283.6818181816 / Min = 1198.0 / Max = 4.9141034E7
-2011 - Number of pairs - Prices =	Mean = 6.244835289541919E7 / Min = 1.0 / Max = 1.4285097638E10
-2011 - Thousands of items - Prices =	Mean = 4929788.545454546 / Min = 418.0 / Max = 6.1843929E7
-2011 - Volume in cubic meters - Prices =	Mean = 6.158405745212766E7 / Min = 262.0 / Max = 5.223646627E9
-2011 - Volume in litres - Prices =	Mean = 2.5391481421773612E7 / Min = 2.0 / Max = 2.022123459E9
-2011 - Weight in carats - Prices =	Mean = 2.8724427385625E8 / Min = 42.0 / Max = 1.997790769E10
-2011 - Weight in kilograms - Prices =	Mean = 3.7861396817903355E7 / Min = 1.0 / Max = 8.29861E10
-2012 - Area in square metres - Prices =	Mean = 7865516.95389049 / Min = 1.0 / Max = 8.53669607E8
-2012 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 5.719527496923077E8 / Min = 324.0 / Max = 3.363238946E9
-2012 - Length in metres - Prices =	Mean = 1130254.222972973 / Min = 10.0 / Max = 2.4033729E7
-2012 - Number of items - Prices =	Mean = 3.0640521514635086E7 / Min = 1.0 / Max = 2.7920680612E10
-2012 - Number of packages - Prices =	Mean = 508762.375 / Min = 737.0 / Max = 4815721.0
-2012 - Number of pairs - Prices =	Mean = 5.364267242654508E7 / Min = 17.0 / Max = 1.4434322274E10
-2012 - Thousands of items - Prices =	Mean = 6084501.333333333 / Min = 522.0 / Max = 4.8559837E7
-2012 - Volume in cubic meters - Prices =	Mean = 8.339346553592815E7 / Min = 2.0 / Max = 4.347833184E9
-2012 - Volume in litres - Prices =	Mean = 3.094008127364865E7 / Min = 1.0 / Max = 3.138262361E9
-2012 - Weight in carats - Prices =	Mean = 5.289196481785714E8 / Min = 10.0 / Max = 1.45392351E10
-2012 - Weight in kilograms - Prices =	Mean = 3.779517034662521E7 / Min = 1.0 / Max = 2.20793843089E11
-2013 - Area in square metres - Prices =	Mean = 1.0891966478880407E7 / Min = 7.0 / Max = 3.465872352E9
-2013 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 1.0692936751111112E9 / Min = 79.0 / Max = 4.989035198E9
-2013 - Length in metres - Prices =	Mean = 789348.4390243902 / Min = 20.0 / Max = 2.6620892E7
-2013 - Number of items - Prices =	Mean = 3.8883102691611186E7 / Min = 1.0 / Max = 2.0010552972E10
-2013 - Number of packages - Prices =	Mean = 1.5413293E7 / Min = 175.0 / Max = 6.5943312E7
-2013 - Number of pairs - Prices =	Mean = 3.524038769922879E7 / Min = 15.0 / Max = 3.087358939E9
-2013 - Thousands of items - Prices =	Mean = 6276466.181818182 / Min = 294.0 / Max = 5.5350897E7
-2013 - Volume in cubic meters - Prices =	Mean = 3.14379229375E7 / Min = 3.0 / Max = 1.351340713E9
-2013 - Volume in litres - Prices =	Mean = 5.1573730593939394E7 / Min = 2.0 / Max = 8.921805231E9
-2013 - Weight in carats - Prices =	Mean = 9.718167391666667E7 / Min = 487.0 / Max = 1.156063734E9
-2013 - Weight in kilograms - Prices =	Mean = 4.057026634703289E7 / Min = 1.0 / Max = 4.01459981239E11
-2014 - Area in square metres - Prices =	Mean = 1.5856219103482587E7 / Min = 3.0 / Max = 4.172365308E9
-2014 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 7.869092270833334E8 / Min = 2675.0 / Max = 4.587896784E9
-2014 - Length in metres - Prices =	Mean = 546566.1734693878 / Min = 15.0 / Max = 1.8030313E7
-2014 - Number of items - Prices =	Mean = 3.3022987631876513E7 / Min = 1.0 / Max = 2.5108332014E10
-2014 - Number of packages - Prices =	Mean = 2869806.409090909 / Min = 9735.0 / Max = 2.206284E7
-2014 - Number of pairs - Prices =	Mean = 4.3334250003597125E7 / Min = 3.0 / Max = 3.171403772E9
-2014 - Thousands of items - Prices =	Mean = 3547609.4615384615 / Min = 4932.0 / Max = 3.098317E7
-2014 - Volume in cubic meters - Prices =	Mean = 6.088826681382979E7 / Min = 66.0 / Max = 3.829564307E9
-2014 - Volume in litres - Prices =	Mean = 5.0070341283667624E7 / Min = 2.0 / Max = 8.844315102E9
-2014 - Weight in carats - Prices =	Mean = 965007.8888888889 / Min = 57.0 / Max = 8219261.0
-2014 - Weight in kilograms - Prices =	Mean = 4.193473783217836E7 / Min = 1.0 / Max = 3.59475936313E11
-2015 - Area in square metres - Prices =	Mean = 1.1648024216632444E7 / Min = 4.0 / Max = 2.932550396E9
-2015 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 5.0470380392E8 / Min = 400.0 / Max = 3.000536991E9
-2015 - Length in metres - Prices =	Mean = 165032.92783505155 / Min = 13.0 / Max = 4749730.0
-2015 - Number of items - Prices =	Mean = 4.387464512137967E7 / Min = 1.0 / Max = 5.1193477171E10
-2015 - Number of packages - Prices =	Mean = 6386481.083333333 / Min = 194.0 / Max = 9.0122797E7
-2015 - Number of pairs - Prices =	Mean = 5.58064306775701E7 / Min = 3.0 / Max = 1.960046208E10
-2015 - Thousands of items - Prices =	Mean = 8407493.629629629 / Min = 233.0 / Max = 7.7480386E7
-2015 - Volume in cubic meters - Prices =	Mean = 6.0573888753246754E7 / Min = 6.0 / Max = 6.648276915E9
-2015 - Volume in litres - Prices =	Mean = 4.0259555744890235E7 / Min = 6.0 / Max = 5.546843064E9
-2015 - Weight in carats - Prices =	Mean = 2155988.1666666665 / Min = 28924.0 / Max = 9390721.0
-2015 - Weight in kilograms - Prices =	Mean = 3.009451940246778E7 / Min = 1.0 / Max = 7.4804956162E10
-2016 - Area in square metres - Prices =	Mean = 1.043994232451923E7 / Min = 3.0 / Max = 3.719959075E9
-2016 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 1.7653582575E8 / Min = 1128262.0 / Max = 1.065282687E9
-2016 - Length in metres - Prices =	Mean = 156330.325 / Min = 8.0 / Max = 2761956.0
-2016 - Number of items - Prices =	Mean = 3.581436971433424E7 / Min = 1.0 / Max = 3.5444478236E10
-2016 - Number of packages - Prices =	Mean = 6164742.342105263 / Min = 11.0 / Max = 1.15285573E8
-2016 - Number of pairs - Prices =	Mean = 3.5886761233853005E7 / Min = 11.0 / Max = 2.324844543E9
-2016 - Thousands of items - Prices =	Mean = 9433814.782608695 / Min = 1500.0 / Max = 1.20570627E8
-2016 - Volume in cubic meters - Prices =	Mean = 6.5243662625E7 / Min = 203.0 / Max = 4.052653026E9
-2016 - Volume in litres - Prices =	Mean = 2.9065813433121018E7 / Min = 8.0 / Max = 1.547191989E9
-2016 - Weight in carats - Prices =	Mean = 4496360.75 / Min = 116633.0 / Max = 9557468.0
-2016 - Weight in kilograms - Prices =	Mean = 2.79623045069153E7 / Min = 1.0 / Max = 5.6865611547E10
+1988 - Area in square metres - Prices =	Mean = 6958580 / Min = 7 / Max = 403386005
+1988 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 5512366 / Min = 5512366 / Max = 5512366
+1988 - Length in metres - Prices =	Mean = 1996338 / Min = 2220 / Max = 14090989
+1988 - Number of items - Prices =	Mean = 13709735 / Min = 62 / Max = 933951320
+1988 - Number of pairs - Prices =	Mean = 2968403 / Min = 1069 / Max = 29145623
+1988 - Volume in litres - Prices =	Mean = 89033551 / Min = 6 / Max = 18423300970
+1988 - Weight in kilograms - Prices =	Mean = 14803935 / Min = 7 / Max = 5171219963
+1989 - Area in square metres - Prices =	Mean = 5621584 / Min = 28 / Max = 367370724
+1989 - Length in metres - Prices =	Mean = 1570690 / Min = 518 / Max = 49498556
+1989 - Number of items - Prices =	Mean = 14618216 / Min = 8 / Max = 4567785853
+1989 - Number of pairs - Prices =	Mean = 5009715 / Min = 36 / Max = 130535951
+1989 - Volume in litres - Prices =	Mean = 29038380 / Min = 3 / Max = 3900405760
+1989 - Weight in kilograms - Prices =	Mean = 10364929 / Min = 1 / Max = 5450526322
+1990 - Area in square metres - Prices =	Mean = 4980620 / Min = 15 / Max = 320431542
+1990 - Length in metres - Prices =	Mean = 2765201 / Min = 174 / Max = 59557455
+1990 - Number of items - Prices =	Mean = 29381585 / Min = 9 / Max = 8600394514
+1990 - Number of pairs - Prices =	Mean = 6225074 / Min = 130 / Max = 119229449
+1990 - Volume in litres - Prices =	Mean = 54631538 / Min = 3 / Max = 12670429184
+1990 - Weight in kilograms - Prices =	Mean = 10720973 / Min = 1 / Max = 4480755200
+1991 - Area in square metres - Prices =	Mean = 6124800 / Min = 81 / Max = 403965643
+1991 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 2515 / Min = 2515 / Max = 2515
+1991 - Length in metres - Prices =	Mean = 1525683 / Min = 63 / Max = 30407741
+1991 - Number of items - Prices =	Mean = 39337173 / Min = 7 / Max = 22230708224
+1991 - Number of pairs - Prices =	Mean = 2362132 / Min = 15 / Max = 27343021
+1991 - Volume in litres - Prices =	Mean = 27469437 / Min = 1 / Max = 5695656960
+1991 - Weight in kilograms - Prices =	Mean = 10150274 / Min = 1 / Max = 9822961664
+1992 - Area in square metres - Prices =	Mean = 3619758 / Min = 33 / Max = 230991216
+1992 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 592373504 / Min = 592373504 / Max = 592373504
+1992 - Length in metres - Prices =	Mean = 9981210 / Min = 4 / Max = 597289986
+1992 - Number of items - Prices =	Mean = 25003513 / Min = 2 / Max = 4801753600
+1992 - Number of pairs - Prices =	Mean = 31690831 / Min = 6 / Max = 829395508
+1992 - Volume in litres - Prices =	Mean = 18566812 / Min = 4 / Max = 5543894016
+1992 - Weight in carats - Prices =	Mean = 86544550 / Min = 57850 / Max = 263142786
+1992 - Weight in kilograms - Prices =	Mean = 7686159 / Min = 1 / Max = 4345726846
+1993 - Area in square metres - Prices =	Mean = 10901562 / Min = 40 / Max = 535701522
+1993 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 164979840 / Min = 164979840 / Max = 164979840
+1993 - Length in metres - Prices =	Mean = 15115340 / Min = 3 / Max = 357125211
+1993 - Number of items - Prices =	Mean = 29663512 / Min = 6 / Max = 12730875972
+1993 - Number of pairs - Prices =	Mean = 45785108 / Min = 201 / Max = 2214192906
+1993 - Volume in litres - Prices =	Mean = 36107479 / Min = 3 / Max = 7105830176
+1993 - Weight in kilograms - Prices =	Mean = 7342013 / Min = 1 / Max = 5034622464
+1994 - Area in square metres - Prices =	Mean = 9559166 / Min = 99 / Max = 510143036
+1994 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 4122301 / Min = 588 / Max = 16549948
+1994 - Length in metres - Prices =	Mean = 20824670 / Min = 464 / Max = 662530374
+1994 - Number of items - Prices =	Mean = 43742075 / Min = 21 / Max = 18077764326
+1994 - Number of pairs - Prices =	Mean = 68067788 / Min = 34 / Max = 2434144256
+1994 - Volume in litres - Prices =	Mean = 35312545 / Min = 2 / Max = 27233288316
+1994 - Weight in kilograms - Prices =	Mean = 9199368 / Min = 1 / Max = 7513197056
+1995 - Area in square metres - Prices =	Mean = 15876705 / Min = 5 / Max = 1344464357
+1995 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 40169258 / Min = 8578900 / Max = 71759616
+1995 - Length in metres - Prices =	Mean = 15533296 / Min = 58 / Max = 647145990
+1995 - Number of items - Prices =	Mean = 25954174 / Min = 9 / Max = 4270912925
+1995 - Number of pairs - Prices =	Mean = 70682655 / Min = 84 / Max = 2770837671
+1995 - Volume in litres - Prices =	Mean = 30409993 / Min = 1 / Max = 29627156724
+1995 - Weight in kilograms - Prices =	Mean = 10181653 / Min = 1 / Max = 12069552128
+1996 - Area in square metres - Prices =	Mean = 8351314 / Min = 31 / Max = 594472645
+1996 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 21208576 / Min = 1297 / Max = 73550496
+1996 - Length in metres - Prices =	Mean = 14938950 / Min = 13 / Max = 558384790
+1996 - Number of items - Prices =	Mean = 25839798 / Min = 1 / Max = 5099083250
+1996 - Number of pairs - Prices =	Mean = 89354876 / Min = 37 / Max = 3064989982
+1996 - Volume in litres - Prices =	Mean = 35382350 / Min = 3 / Max = 33089229483
+1996 - Weight in kilograms - Prices =	Mean = 10359793 / Min = 1 / Max = 12630739968
+1997 - Area in square metres - Prices =	Mean = 10209908 / Min = 5 / Max = 607300338
+1997 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 13823917 / Min = 13823917 / Max = 13823917
+1997 - Length in metres - Prices =	Mean = 11082921 / Min = 33 / Max = 581271210
+1997 - Number of items - Prices =	Mean = 31148760 / Min = 2 / Max = 21689627081
+1997 - Number of pairs - Prices =	Mean = 31103413 / Min = 39 / Max = 2846278146
+1997 - Volume in litres - Prices =	Mean = 27849740 / Min = 1 / Max = 15549675012
+1997 - Weight in kilograms - Prices =	Mean = 8904488 / Min = 1 / Max = 11160780934
+1998 - Area in square metres - Prices =	Mean = 8466651 / Min = 3 / Max = 434154035
+1998 - Length in metres - Prices =	Mean = 13871239 / Min = 9 / Max = 897893948
+1998 - Number of items - Prices =	Mean = 26057621 / Min = 2 / Max = 30809119328
+1998 - Number of pairs - Prices =	Mean = 46406353 / Min = 26 / Max = 2734871660
+1998 - Volume in litres - Prices =	Mean = 25895462 / Min = 1 / Max = 8694584320
+1998 - Weight in kilograms - Prices =	Mean = 8781429 / Min = 1 / Max = 11708121148
+1999 - Area in square metres - Prices =	Mean = 10845990 / Min = 6 / Max = 510386586
+1999 - Length in metres - Prices =	Mean = 17623818 / Min = 27 / Max = 924631049
+1999 - Number of items - Prices =	Mean = 34572085 / Min = 5 / Max = 28083790581
+1999 - Number of pairs - Prices =	Mean = 58947389 / Min = 5 / Max = 2564185308
+1999 - Volume in litres - Prices =	Mean = 15731252 / Min = 1 / Max = 4975126889
+1999 - Weight in kilograms - Prices =	Mean = 8025898 / Min = 1 / Max = 13239518329
+2000 - Area in square metres - Prices =	Mean = 6214342 / Min = 3 / Max = 866669704
+2000 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 160957380 / Min = 1660 / Max = 656402416
+2000 - Length in metres - Prices =	Mean = 9139490 / Min = 1 / Max = 322844505
+2000 - Number of items - Prices =	Mean = 17955529 / Min = 1 / Max = 21001123596
+2000 - Number of packages - Prices =	Mean = 8383194 / Min = 436 / Max = 12698024
+2000 - Number of pairs - Prices =	Mean = 22820211 / Min = 10 / Max = 2446505615
+2000 - Thousands of items - Prices =	Mean = 3640217 / Min = 1561 / Max = 27582183
+2000 - Volume in cubic meters - Prices =	Mean = 36955165 / Min = 26 / Max = 1684068724
+2000 - Volume in litres - Prices =	Mean = 15149741 / Min = 1 / Max = 3204286039
+2000 - Weight in carats - Prices =	Mean = 184345708 / Min = 8 / Max = 10094054474
+2000 - Weight in kilograms - Prices =	Mean = 11888254 / Min = 1 / Max = 98728826923
+2001 - Area in square metres - Prices =	Mean = 5119906 / Min = 17 / Max = 537242549
+2001 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 153843328 / Min = 7193 / Max = 655549474
+2001 - Length in metres - Prices =	Mean = 6376622 / Min = 4 / Max = 208596732
+2001 - Number of items - Prices =	Mean = 16905932 / Min = 1 / Max = 13457514000
+2001 - Number of packages - Prices =	Mean = 4632103 / Min = 6987 / Max = 14215790
+2001 - Number of pairs - Prices =	Mean = 28743885 / Min = 2 / Max = 2753274234
+2001 - Thousands of items - Prices =	Mean = 3407561 / Min = 1424 / Max = 17105082
+2001 - Volume in cubic meters - Prices =	Mean = 19895955 / Min = 109 / Max = 409365135
+2001 - Volume in litres - Prices =	Mean = 13549760 / Min = 1 / Max = 1900916127
+2001 - Weight in carats - Prices =	Mean = 181081049 / Min = 11 / Max = 5618222220
+2001 - Weight in kilograms - Prices =	Mean = 9021402 / Min = 1 / Max = 10391536933
+2002 - Area in square metres - Prices =	Mean = 7911582 / Min = 5 / Max = 2094965871
+2002 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 307435818 / Min = 41605 / Max = 1774113687
+2002 - Length in metres - Prices =	Mean = 9731196 / Min = 44 / Max = 406510791
+2002 - Number of items - Prices =	Mean = 16623866 / Min = 1 / Max = 12582020967
+2002 - Number of packages - Prices =	Mean = 6604406 / Min = 550 / Max = 13208263
+2002 - Number of pairs - Prices =	Mean = 16838372 / Min = 9 / Max = 2472780309
+2002 - Thousands of items - Prices =	Mean = 3659462 / Min = 1932 / Max = 12980224
+2002 - Volume in cubic meters - Prices =	Mean = 31563350 / Min = 53 / Max = 1174042321
+2002 - Volume in litres - Prices =	Mean = 17592284 / Min = 1 / Max = 3518884890
+2002 - Weight in carats - Prices =	Mean = 142813362 / Min = 70 / Max = 10040454568
+2002 - Weight in kilograms - Prices =	Mean = 10664718 / Min = 1 / Max = 24977049252
+2003 - Area in square metres - Prices =	Mean = 6213080 / Min = 5 / Max = 622623718
+2003 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 230698741 / Min = 7981734 / Max = 1323045556
+2003 - Length in metres - Prices =	Mean = 5356134 / Min = 39 / Max = 351705821
+2003 - Number of items - Prices =	Mean = 18129959 / Min = 1 / Max = 13494684269
+2003 - Number of packages - Prices =	Mean = 6557848 / Min = 3059 / Max = 13074653
+2003 - Number of pairs - Prices =	Mean = 28801840 / Min = 1 / Max = 3201326908
+2003 - Thousands of items - Prices =	Mean = 2552710 / Min = 636 / Max = 15946696
+2003 - Volume in cubic meters - Prices =	Mean = 69070995 / Min = 17 / Max = 6046233412
+2003 - Volume in litres - Prices =	Mean = 18317176 / Min = 3 / Max = 4220590957
+2003 - Weight in carats - Prices =	Mean = 155591894 / Min = 11 / Max = 8611470301
+2003 - Weight in kilograms - Prices =	Mean = 13297803 / Min = 1 / Max = 34008604103
+2004 - Area in square metres - Prices =	Mean = 9265948 / Min = 5 / Max = 3009825861
+2004 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 313728164 / Min = 4654835 / Max = 2554542956
+2004 - Length in metres - Prices =	Mean = 8447628 / Min = 32 / Max = 291372903
+2004 - Number of items - Prices =	Mean = 25256504 / Min = 1 / Max = 20743023232
+2004 - Number of packages - Prices =	Mean = 436233 / Min = 57137 / Max = 815330
+2004 - Number of pairs - Prices =	Mean = 23222902 / Min = 1 / Max = 3482426452
+2004 - Thousands of items - Prices =	Mean = 3116520 / Min = 1541 / Max = 21448206
+2004 - Volume in cubic meters - Prices =	Mean = 42774729 / Min = 10 / Max = 2770633668
+2004 - Volume in litres - Prices =	Mean = 13336142 / Min = 2 / Max = 2584873951
+2004 - Weight in carats - Prices =	Mean = 139093223 / Min = 26 / Max = 11120132550
+2004 - Weight in kilograms - Prices =	Mean = 13768250 / Min = 1 / Max = 37070166810
+2005 - Area in square metres - Prices =	Mean = 8168029 / Min = 5 / Max = 2660817656
+2005 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 533058761 / Min = 76645 / Max = 3983261240
+2005 - Length in metres - Prices =	Mean = 5895053 / Min = 17 / Max = 407799035
+2005 - Number of items - Prices =	Mean = 24369514 / Min = 1 / Max = 31772203686
+2005 - Number of packages - Prices =	Mean = 6903284 / Min = 2102 / Max = 20113140
+2005 - Number of pairs - Prices =	Mean = 22107965 / Min = 7 / Max = 1663570687
+2005 - Thousands of items - Prices =	Mean = 5645229 / Min = 1480 / Max = 21338871
+2005 - Volume in cubic meters - Prices =	Mean = 21613620 / Min = 6 / Max = 740206429
+2005 - Volume in litres - Prices =	Mean = 18352572 / Min = 3 / Max = 2981746813
+2005 - Weight in carats - Prices =	Mean = 282836242 / Min = 16 / Max = 12906508575
+2005 - Weight in kilograms - Prices =	Mean = 16236212 / Min = 1 / Max = 45281302495
+2006 - Area in square metres - Prices =	Mean = 6720710 / Min = 1 / Max = 878161148
+2006 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 337889963 / Min = 195 / Max = 2112639708
+2006 - Length in metres - Prices =	Mean = 5342108 / Min = 11 / Max = 219740209
+2006 - Number of items - Prices =	Mean = 23047806 / Min = 1 / Max = 17318485000
+2006 - Number of packages - Prices =	Mean = 6278614 / Min = 1268 / Max = 18967942
+2006 - Number of pairs - Prices =	Mean = 30527283 / Min = 6 / Max = 5642838278
+2006 - Thousands of items - Prices =	Mean = 6971520 / Min = 58 / Max = 27188639
+2006 - Volume in cubic meters - Prices =	Mean = 45079087 / Min = 8 / Max = 7740692440
+2006 - Volume in litres - Prices =	Mean = 28003445 / Min = 1 / Max = 3301220747
+2006 - Weight in carats - Prices =	Mean = 247495291 / Min = 17 / Max = 9987653205
+2006 - Weight in kilograms - Prices =	Mean = 22895231 / Min = 1 / Max = 262924347374
+2007 - Area in square metres - Prices =	Mean = 10684385 / Min = 2 / Max = 3277831241
+2007 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 556159229 / Min = 144 / Max = 5600884153
+2007 - Length in metres - Prices =	Mean = 4890424 / Min = 7 / Max = 237596257
+2007 - Number of items - Prices =	Mean = 25506290 / Min = 1 / Max = 19229847575
+2007 - Number of packages - Prices =	Mean = 5249327 / Min = 13 / Max = 79938664
+2007 - Number of pairs - Prices =	Mean = 25033581 / Min = 5 / Max = 6313940300
+2007 - Thousands of items - Prices =	Mean = 5738936 / Min = 846 / Max = 38903000
+2007 - Volume in cubic meters - Prices =	Mean = 28906854 / Min = 29 / Max = 1894171178
+2007 - Volume in litres - Prices =	Mean = 33101479 / Min = 2 / Max = 3856636706
+2007 - Weight in carats - Prices =	Mean = 113683972 / Min = 5 / Max = 7431239099
+2007 - Weight in kilograms - Prices =	Mean = 25976180 / Min = 1 / Max = 290899699040
+2008 - Area in square metres - Prices =	Mean = 8935352 / Min = 9 / Max = 1389350118
+2008 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 247391156 / Min = 9395 / Max = 1327947000
+2008 - Length in metres - Prices =	Mean = 3453670 / Min = 25 / Max = 143606345
+2008 - Number of items - Prices =	Mean = 37837568 / Min = 1 / Max = 25484478765
+2008 - Number of packages - Prices =	Mean = 7533038 / Min = 305 / Max = 55572750
+2008 - Number of pairs - Prices =	Mean = 39991725 / Min = 23 / Max = 8231914307
+2008 - Thousands of items - Prices =	Mean = 2237544 / Min = 291 / Max = 33355100
+2008 - Volume in cubic meters - Prices =	Mean = 25341793 / Min = 6 / Max = 2406763157
+2008 - Volume in litres - Prices =	Mean = 38542120 / Min = 2 / Max = 3829869298
+2008 - Weight in carats - Prices =	Mean = 84075339 / Min = 1 / Max = 7890824513
+2008 - Weight in kilograms - Prices =	Mean = 29450739 / Min = 1 / Max = 155473624044
+2009 - Area in square metres - Prices =	Mean = 7404917 / Min = 1 / Max = 682647550
+2009 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 507144155 / Min = 65 / Max = 4908754338
+2009 - Length in metres - Prices =	Mean = 3991476 / Min = 1 / Max = 213328038
+2009 - Number of items - Prices =	Mean = 29604700 / Min = 1 / Max = 23976439537
+2009 - Number of packages - Prices =	Mean = 3230661 / Min = 931 / Max = 26866680
+2009 - Number of pairs - Prices =	Mean = 26123782 / Min = 6 / Max = 5915798320
+2009 - Thousands of items - Prices =	Mean = 4377060 / Min = 225 / Max = 26547252
+2009 - Volume in cubic meters - Prices =	Mean = 28108968 / Min = 13 / Max = 3308301706
+2009 - Volume in litres - Prices =	Mean = 33814998 / Min = 1 / Max = 4900930181
+2009 - Weight in carats - Prices =	Mean = 318389727 / Min = 25 / Max = 9731832824
+2009 - Weight in kilograms - Prices =	Mean = 24891151 / Min = 1 / Max = 89255586690
+2010 - Area in square metres - Prices =	Mean = 9349192 / Min = 1 / Max = 1998210185
+2010 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 392691043 / Min = 41 / Max = 2657264856
+2010 - Length in metres - Prices =	Mean = 2360966 / Min = 40 / Max = 156735741
+2010 - Number of items - Prices =	Mean = 23065208 / Min = 2 / Max = 18013686654
+2010 - Number of packages - Prices =	Mean = 3887001 / Min = 61 / Max = 57550617
+2010 - Number of pairs - Prices =	Mean = 33584526 / Min = 5 / Max = 4959592644
+2010 - Thousands of items - Prices =	Mean = 3290006 / Min = 361 / Max = 30578961
+2010 - Volume in cubic meters - Prices =	Mean = 46924799 / Min = 25 / Max = 4037940225
+2010 - Volume in litres - Prices =	Mean = 32539924 / Min = 1 / Max = 6713175841
+2010 - Weight in carats - Prices =	Mean = 340695033 / Min = 4 / Max = 18713841322
+2010 - Weight in kilograms - Prices =	Mean = 28822456 / Min = 1 / Max = 105814257878
+2011 - Area in square metres - Prices =	Mean = 9842098 / Min = 1 / Max = 2597261708
+2011 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 419370509 / Min = 2212 / Max = 3982338445
+2011 - Length in metres - Prices =	Mean = 1290705 / Min = 10 / Max = 58172373
+2011 - Number of items - Prices =	Mean = 30110724 / Min = 1 / Max = 25968314331
+2011 - Number of packages - Prices =	Mean = 3424283 / Min = 1198 / Max = 49141034
+2011 - Number of pairs - Prices =	Mean = 62448352 / Min = 1 / Max = 14285097638
+2011 - Thousands of items - Prices =	Mean = 4929788 / Min = 418 / Max = 61843929
+2011 - Volume in cubic meters - Prices =	Mean = 61584057 / Min = 262 / Max = 5223646627
+2011 - Volume in litres - Prices =	Mean = 25391481 / Min = 2 / Max = 2022123459
+2011 - Weight in carats - Prices =	Mean = 287244273 / Min = 42 / Max = 19977907690
+2011 - Weight in kilograms - Prices =	Mean = 37861396 / Min = 1 / Max = 82986100000
+2012 - Area in square metres - Prices =	Mean = 7865516 / Min = 1 / Max = 853669607
+2012 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 571952749 / Min = 324 / Max = 3363238946
+2012 - Length in metres - Prices =	Mean = 1130254 / Min = 10 / Max = 24033729
+2012 - Number of items - Prices =	Mean = 30640521 / Min = 1 / Max = 27920680612
+2012 - Number of packages - Prices =	Mean = 508762 / Min = 737 / Max = 4815721
+2012 - Number of pairs - Prices =	Mean = 53642672 / Min = 17 / Max = 14434322274
+2012 - Thousands of items - Prices =	Mean = 6084501 / Min = 522 / Max = 48559837
+2012 - Volume in cubic meters - Prices =	Mean = 83393465 / Min = 2 / Max = 4347833184
+2012 - Volume in litres - Prices =	Mean = 30940081 / Min = 1 / Max = 3138262361
+2012 - Weight in carats - Prices =	Mean = 528919648 / Min = 10 / Max = 14539235100
+2012 - Weight in kilograms - Prices =	Mean = 37795170 / Min = 1 / Max = 220793843089
+2013 - Area in square metres - Prices =	Mean = 10891966 / Min = 7 / Max = 3465872352
+2013 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 1069293675 / Min = 79 / Max = 4989035198
+2013 - Length in metres - Prices =	Mean = 789348 / Min = 20 / Max = 26620892
+2013 - Number of items - Prices =	Mean = 38883102 / Min = 1 / Max = 20010552972
+2013 - Number of packages - Prices =	Mean = 15413293 / Min = 175 / Max = 65943312
+2013 - Number of pairs - Prices =	Mean = 35240387 / Min = 15 / Max = 3087358939
+2013 - Thousands of items - Prices =	Mean = 6276466 / Min = 294 / Max = 55350897
+2013 - Volume in cubic meters - Prices =	Mean = 31437922 / Min = 3 / Max = 1351340713
+2013 - Volume in litres - Prices =	Mean = 51573730 / Min = 2 / Max = 8921805231
+2013 - Weight in carats - Prices =	Mean = 97181673 / Min = 487 / Max = 1156063734
+2013 - Weight in kilograms - Prices =	Mean = 40570266 / Min = 1 / Max = 401459981239
+2014 - Area in square metres - Prices =	Mean = 15856219 / Min = 3 / Max = 4172365308
+2014 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 786909227 / Min = 2675 / Max = 4587896784
+2014 - Length in metres - Prices =	Mean = 546566 / Min = 15 / Max = 18030313
+2014 - Number of items - Prices =	Mean = 33022987 / Min = 1 / Max = 25108332014
+2014 - Number of packages - Prices =	Mean = 2869806 / Min = 9735 / Max = 22062840
+2014 - Number of pairs - Prices =	Mean = 43334250 / Min = 3 / Max = 3171403772
+2014 - Thousands of items - Prices =	Mean = 3547609 / Min = 4932 / Max = 30983170
+2014 - Volume in cubic meters - Prices =	Mean = 60888266 / Min = 66 / Max = 3829564307
+2014 - Volume in litres - Prices =	Mean = 50070341 / Min = 2 / Max = 8844315102
+2014 - Weight in carats - Prices =	Mean = 965007 / Min = 57 / Max = 8219261
+2014 - Weight in kilograms - Prices =	Mean = 41934737 / Min = 1 / Max = 359475936313
+2015 - Area in square metres - Prices =	Mean = 11648024 / Min = 4 / Max = 2932550396
+2015 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 504703803 / Min = 400 / Max = 3000536991
+2015 - Length in metres - Prices =	Mean = 165032 / Min = 13 / Max = 4749730
+2015 - Number of items - Prices =	Mean = 43874645 / Min = 1 / Max = 51193477171
+2015 - Number of packages - Prices =	Mean = 6386481 / Min = 194 / Max = 90122797
+2015 - Number of pairs - Prices =	Mean = 55806430 / Min = 3 / Max = 19600462080
+2015 - Thousands of items - Prices =	Mean = 8407493 / Min = 233 / Max = 77480386
+2015 - Volume in cubic meters - Prices =	Mean = 60573888 / Min = 6 / Max = 6648276915
+2015 - Volume in litres - Prices =	Mean = 40259555 / Min = 6 / Max = 5546843064
+2015 - Weight in carats - Prices =	Mean = 2155988 / Min = 28924 / Max = 9390721
+2015 - Weight in kilograms - Prices =	Mean = 30094519 / Min = 1 / Max = 74804956162
+2016 - Area in square metres - Prices =	Mean = 10439942 / Min = 3 / Max = 3719959075
+2016 - Electrical energy in thousands of kilowatt-hours - Prices =	Mean = 176535825 / Min = 1128262 / Max = 1065282687
+2016 - Length in metres - Prices =	Mean = 156330 / Min = 8 / Max = 2761956
+2016 - Number of items - Prices =	Mean = 35814369 / Min = 1 / Max = 35444478236
+2016 - Number of packages - Prices =	Mean = 6164742 / Min = 11 / Max = 115285573
+2016 - Number of pairs - Prices =	Mean = 35886761 / Min = 11 / Max = 2324844543
+2016 - Thousands of items - Prices =	Mean = 9433814 / Min = 1500 / Max = 120570627
+2016 - Volume in cubic meters - Prices =	Mean = 65243662 / Min = 203 / Max = 4052653026
+2016 - Volume in litres - Prices =	Mean = 29065813 / Min = 8 / Max = 1547191989
+2016 - Weight in carats - Prices =	Mean = 4496360 / Min = 116633 / Max = 9557468
+2016 - Weight in kilograms - Prices =	Mean = 27962304 / Min = 1 / Max = 56865611547

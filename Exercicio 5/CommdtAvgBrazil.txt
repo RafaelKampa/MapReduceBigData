@@ -70,7 +70,7 @@ public class CommdtAvgBrazil {
             String category = columns[9];
             String unityType = columns[7];
 
-            Double sum = Double.parseDouble(columns[5]);
+            long sum = Long.parseLong(columns[5]);
 
             if (country.equals("Brazil") && flow.equals("Export")) {
                 GroupByCommdtAvgBrazil groupby = new GroupByCommdtAvgBrazil(year, country, flow, category, unityType);
@@ -84,18 +84,18 @@ public class CommdtAvgBrazil {
         }
     }
 
-    public static class ReduceForBrazil extends Reducer<GroupByCommdtAvgBrazil, CommdtAvgBrazilWritable, GroupByCommdtAvgBrazil, DoubleWritable> {
+    public static class ReduceForBrazil extends Reducer<GroupByCommdtAvgBrazil, CommdtAvgBrazilWritable, GroupByCommdtAvgBrazil, LongWritable> {
         public void reduce(GroupByCommdtAvgBrazil groupby, Iterable<CommdtAvgBrazilWritable> values, Context con)
                 throws IOException, InterruptedException {
-            Double sumPrice = 0.0;
+            long sumPrice = 0;
             int sumN = 0;
             for (CommdtAvgBrazilWritable val : values) {
                 sumN += val.getN();
                 sumPrice += val.getPrice();
             }
-            Double avg = sumPrice/sumN;
+            long avg = sumPrice/sumN;
 
-            con.write(groupby, new DoubleWritable(avg));
+            con.write(groupby, new LongWritable(avg));
         }
     }
 

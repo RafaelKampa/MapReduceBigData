@@ -66,7 +66,7 @@ public class CommdtYearAvg {
             String [] columns = line[0].split(";");
             String year = columns[1];
             String commodityName = columns[3];
-            Double sum = Double.parseDouble(columns[5]);
+            long sum = Long.parseLong(columns[5]);
 
             GroupByCommdtYearAvg groupby = new GroupByCommdtYearAvg(year, commodityName);
 
@@ -76,18 +76,18 @@ public class CommdtYearAvg {
         }
     }
 
-    public static class ReduceForCommodityYear extends Reducer<GroupByCommdtYearAvg, CommdtYearAvgWritable, GroupByCommdtYearAvg, DoubleWritable> {
+    public static class ReduceForCommodityYear extends Reducer<GroupByCommdtYearAvg, CommdtYearAvgWritable, GroupByCommdtYearAvg, LongWritable> {
         public void reduce(GroupByCommdtYearAvg groupby, Iterable<CommdtYearAvgWritable> values, Context con)
                 throws IOException, InterruptedException {
-            Double sumPrices = 0.0;
+            long sumPrices = 0;
             int sumN = 0;
             for (CommdtYearAvgWritable val : values) {
                 sumN += val.getN();
                 sumPrices += val.getPrice();
             }
-            Double avg = sumPrices/sumN;
+            long avg = sumPrices/sumN;
 
-            con.write(groupby, new DoubleWritable(avg));
+            con.write(groupby, new LongWritable(avg));
         }
     }
 
